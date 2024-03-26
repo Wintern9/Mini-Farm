@@ -1,15 +1,12 @@
 fileFormatVersion: 2
-guid: f2e081e9b877cb34bba22ca71ae70dc9
+guid: 0ba82400546bda949941680db8250ed1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3201244875627840591
-    second: Doska_0
-  - first:
-      213: -5492758544505381880
-    second: Doska_1
+      213: -8007851140906824800
+    second: ZABOR_0
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -112,16 +109,29 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Doska_0
+      name: ZABOR_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 34
+        x: 0
+        y: 0
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -130,29 +140,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bbb92d1fb4e293d0800000000000000
-      internalID: -3201244875627840591
+      spriteID: 0abca0490d56ed090800000000000000
+      internalID: -8007851140906824800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Doska_1
+      name: Fence_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 1
-        width: 34
+        x: 32
+        y: 0
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 80cd3c5a43dc5c3b0800000000000000
-      internalID: -5492758544505381880
+      spriteID: d79bb6fc0eb6ace42b7f990aff612d5b
+      internalID: 513318292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b2a713ae2252c4e8621479cc5f7923
+      internalID: 1385036263
       vertices: []
       indices: 
       edges: []
@@ -160,7 +191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fe7bd68c867199d4fb7ae2be9d1e5276
+    spriteID: 49bdfd76250b56549a6ba2e2eb7d63f8
     internalID: 0
     vertices: []
     indices: 
@@ -168,8 +199,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Doska_0: -3201244875627840591
-      Doska_1: -5492758544505381880
+      Fence_0: 513318292
+      Fence_1: 1385036263
+      ZABOR_0: -8007851140906824800
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
